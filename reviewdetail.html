@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+    <link rel="stylesheet" href="css/review.css"> 
+    <title>Document</title>
+</head>
+<body class="review-detail">
+    <header>
+
+    </header>
+    <main> 
+        <div class="container reviewdetailhtml">
+            <div class="container-header">
+                <h1>Chi tiết đánh giá</h1>
+            </div>
+            <form class="review-form container"> 
+                <div class="review-form component-container">
+                    <label for="reviewer-name" class="name-label" >Họ và tên</label>
+                    <input type="text" id="reviewer-name" name="reviewerName" class="name-input">
+                </div>
+                <div class="review-form component-container">
+                    <label for="review-place" class="name-label">Địa điểm du lịch</label>
+                    <select id="review-place" name="reviewPlace" class="place-select">
+                        <option value=""disabled selected>Chọn địa điểm</option>
+                        <option value="hanoi">Hà Nội</option>
+                        <option value="tphcm">TP HCM</option>
+                        <option value="danang">Đà Nẵng</option>
+                        <option value="haiphong">Hải Phòng</option>
+                        <option value="cantho">Cần Thơ</option>
+                        <option value="hue">Huế</option>
+                        <option value="quangninh">Quảng Ninh</option>
+                        <option value="tuyenquang">Tuyên Quang</option>
+                        <option value="laocai">Lào Cai</option>
+                        <option value="thainguyen">Thái Nguyên</option>
+                        <option value="phutho">Phú Thọ</option>
+                        <option value="bacninh">Bắc Ninh</option>
+                        <option value="hungyen">Hưng Yên</option>
+                        <option value="ninhbinh">Ninh Bình</option>
+                        <option value="quangtri">Quảng Trị</option>
+                        <option value="quangngai">Quảng Ngãi</option>
+                        <option value="gialai">Gia Lai</option>
+                        <option value="khanhhoa">Khánh Hòa</option>
+                        <option value="lamdong">Lâm Đồng</option>
+                        <option value="daklak">Đắk Lắk</option>
+                        <option value="dongnai">Đồng Nai</option>
+                        <option value="tayninh">Tây Ninh</option>
+                        <option value="vinhlong">Vĩnh Long</option>
+                        <option value="dongthap">Đồng Tháp</option>
+                        <option value="camau">Cà Mau</option>
+                        <option value="angiang">An Giang</option>
+                        <option value="laichau">Lai Châu</option>
+                        <option value="dienbien">Điện Biên</option>
+                        <option value="sonla">Sơn La</option>
+                        <option value="langson">Lạng Sơn</option>
+                        <option value="thanhhoa">Thanh Hoá</option>
+                        <option value="nghean">Nghệ An</option>
+                        <option value="hatinh">Hà Tĩnh</option>
+                        <option value="caobang">Cao Bằng</option>
+                    </select>
+                </div>
+                <div class="review-form component-container">
+                    <label class="name-label">Dịch vụ</label>
+                    <span class="star-group">
+                        <input type="radio" name="serviceStar" id="servicestar5" value="5">
+                        <label for="servicestar5">&#9733</label>
+                        <input type="radio" name="serviceStar" id="servicestar4" value="4">
+                        <label for="servicestar4">&#9733</label>
+                        <input type="radio" name="serviceStar" id="servicestar3" value="3">
+                        <label for="servicestar3">&#9733</label>
+                        <input type="radio" name="serviceStar" id="servicestar2" value="2">
+                        <label for="servicestar2">&#9733</label>
+                        <input type="radio" name="serviceStar" id="servicestar1" value="1">
+                        <label for="servicestar1">&#9733</label>    
+                    </span>
+                </div>
+                <div class="review-form component-container">
+                    <label class="name-label">Khách sạn</label>
+                    <span class="star-group">
+                        <input type="radio" name="hotelStar" id="hotelstar5" value="5">
+                        <label for="hotelstar5">&#9733</label>
+                        <input type="radio" name="hotelStar" id="hotelstar4" value="4">
+                        <label for="hotelstar4">&#9733</label>
+                        <input type="radio" name="hotelStar" id="hotelstar3" value="3">
+                        <label for="hotelstar3">&#9733</label>
+                        <input type="radio" name="hotelStar" id="hotelstar2" value="2">
+                        <label for="hotelstar2">&#9733</label>
+                        <input type="radio" name="hotelStar" id="hotelstar1" value="1">
+                        <label for="hotelstar1">&#9733</label>           
+                    </span>
+                </div>
+                <div class="review-form component-container">
+                    <label class="name-label"> Hướng dẫn viên</label>
+                    <span class="star-group">
+                        <input type="radio" name="tourguideStar" id="tourguidestar5" value="5">
+                        <label for="tourguidestar5">&#9733</label>
+                        <input type="radio" name="tourguideStar" id="tourguidestar4" value="4">
+                        <label for="tourguidestar4">&#9733</label>
+                        <input type="radio" name="tourguideStar" id="tourguidestar3" value="3">
+                        <label for="tourguidestar3">&#9733</label>
+                        <input type="radio" name="tourguideStar" id="tourguidestar2" value="2">
+                        <label for="tourguidestar2">&#9733</label>
+                        <input type="radio" name="tourguideStar" id="tourguidestar1" value="1">
+                        <label for="tourguidestar1">&#9733</label>  
+                    </span>
+                </div>
+                <div class="review-form component-container">
+                    <label class="name-label">Lịch trình</label>
+                    <span class="star-group">
+                        <input type="radio" name="itineraryStar" id="itinerarystar5" value="5">
+                        <label for="itinerarystar5">&#9733</label>
+                        <input type="radio" name="itineraryStar" id="itinerarystar4" value="4">
+                        <label for="itinerarystar4">&#9733</label>
+                        <input type="radio" name="itineraryStar" id="itinerarystar3" value="3">
+                        <label for="itinerarystar3">&#9733</label>
+                        <input type="radio" name="itineraryStar" id="itinerarystar2" value="2">
+                        <label for="itinerarystar2">&#9733</label>
+                        <input type="radio" name="itineraryStar" id="itinerarystar1" value="1">
+                        <label for="itinerarystar1">&#9733</label>     
+                    </span>
+                </div>
+                <div class="review-form box-component">
+                    <label for="detail" class="name-label">Đánh giá chi tiết</label>
+                    <textarea class="text-box", id="detail" name="detailBox" rows="6" placeholder="Hãy nhập chi tiết dánh giá của bạn"></textarea>
+                </div>
+                <div  class="date-review-container">
+                    <label class="name-label">Ngày đánh giá : </label>
+                    <span id="review-date" class="readonly-field"></span>
+                </div>
+                <div class="review-form submit-component">
+                    <button class="submit-button", type="submit">Gửi</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/reviewdetail.js"></script>
+</body>
+</html>
