@@ -119,6 +119,7 @@ function createReviewElement(review,index) {
     let img=document.createElement("img");
     cardBackground.appendChild(img);
     img.className="upper-container img-background";
+    /*Lấy ngẫu nhiên 1 ảnh trong mảng backgroundimages*/
     img.src=backgroundimages[Math.floor(Math.random()*backgroundimages.length)];
     let date=document.createElement("time");
     cardBackground.appendChild(date);
